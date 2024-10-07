@@ -18,3 +18,11 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/images/obey1.jpg
+    - assets/images/obey2.jpg
+    - assets/images/obey3.jpg
+    - assets/images/obey4.jpg
+    - assets/images/obey5.jpg
+    - assets/images/obey6.jpg

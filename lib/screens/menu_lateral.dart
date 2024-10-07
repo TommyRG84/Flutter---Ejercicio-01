@@ -22,7 +22,7 @@ class MenuLateral extends StatelessWidget {
               onTap: () {
                 Navigator.of(context).pop();
                 Navigator.of(context)
-                    .push(MaterialPageRoute(builder: (BuildContext context) => const Enlace1()));
+                    .push(MaterialPageRoute(builder: (BuildContext context) => const Seccion1()));
               },
             ),
           ),
@@ -31,7 +31,7 @@ class MenuLateral extends StatelessWidget {
             onTap: () {
               Navigator.of(context).pop();
               Navigator.of(context)
-                  .push(MaterialPageRoute(builder: (BuildContext context) => const Enlace2()));
+                  .push(MaterialPageRoute(builder: (BuildContext context) => const Seccion2()));
             },
           ),
           ListTile(
@@ -39,7 +39,7 @@ class MenuLateral extends StatelessWidget {
             onTap: () {
               Navigator.of(context).pop();
               Navigator.of(context)
-                  .push(MaterialPageRoute(builder: (BuildContext context) => const Enlace3()));
+                  .push(MaterialPageRoute(builder: (BuildContext context) => const Seccion3()));
             },
           ),
           ListTile(
@@ -47,7 +47,7 @@ class MenuLateral extends StatelessWidget {
             onTap: () {
               Navigator.of(context).pop();
               Navigator.of(context)
-                  .push(MaterialPageRoute(builder: (BuildContext context) => const Enlace4()));
+                  .push(MaterialPageRoute(builder: (BuildContext context) => const Seccion4()));
             },
           ),
         ],

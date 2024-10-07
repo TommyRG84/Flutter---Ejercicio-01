@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Enlace4 extends StatelessWidget {
-  const Enlace4({super.key});
+class Seccion4 extends StatelessWidget {
+  const Seccion4({super.key});
 
   @override
   Widget build(BuildContext context) {
