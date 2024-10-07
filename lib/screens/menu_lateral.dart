@@ -1,4 +1,5 @@
 import 'package:ejercicio_1/screens/seccion_3.dart';
+import 'package:ejercicio_1/screens/seccion_4.dart';
 import 'package:flutter/material.dart';
 import 'seccion_1.dart';
 import 'seccion_2.dart';
@@ -11,15 +12,6 @@ class MenuLateral extends StatelessWidget {
     return Drawer(
       child: ListView(
         children: <Widget>[
-          const UserAccountsDrawerHeader(
-            accountName: Text("Empresa"),
-            accountEmail: Text("micorreo@gmail.com"),
-            decoration: BoxDecoration(
-                image: DecorationImage(
-                    image: NetworkImage(
-                        "https://ichef.bbci.co.uk/news/660/cpsprodpb/6AFE/production/_102809372_machu.jpg"),
-                    fit: BoxFit.cover)),
-          ),
           Ink(
             color: Colors.indigo,
             child: ListTile(
@@ -48,6 +40,14 @@ class MenuLateral extends StatelessWidget {
               Navigator.of(context).pop();
               Navigator.of(context)
                   .push(MaterialPageRoute(builder: (BuildContext context) => const Enlace3()));
+            },
+          ),
+          ListTile(
+            title: const Text("Sección 4"),
+            onTap: () {
+              Navigator.of(context).pop();
+              Navigator.of(context)
+                  .push(MaterialPageRoute(builder: (BuildContext context) => const Enlace4()));
             },
           ),
         ],
