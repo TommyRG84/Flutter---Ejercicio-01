@@ -10,7 +10,98 @@ class Seccion4 extends StatelessWidget {
         title: const Text("Segunda pantalla"),
       ),
       body: const Center(
-        child: Text("Parte central"),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Icon(
+                  Icons.adb,
+                  color: Colors.teal,
+                )
+              ],
+            ),
+            SizedBox(height: 10),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Icon(
+                  Icons.adb,
+                  color: Color.fromARGB(255, 0, 107, 150),
+                ),
+                Icon(
+                  Icons.adb,
+                  color: Color.fromARGB(255, 0, 62, 150),
+                ),
+                Icon(
+                  Icons.adb,
+                  color: Color.fromARGB(255, 0, 22, 150),
+                )
+              ],
+            ),
+            SizedBox(height: 10),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Icon(
+                  Icons.adb,
+                  color: Color.fromARGB(255, 12, 0, 150),
+                ),
+                Icon(
+                  Icons.adb,
+                  color: Color.fromARGB(255, 67, 0, 150),
+                ),
+                Icon(
+                  Icons.adb,
+                  color: Color.fromARGB(255, 120, 0, 150),
+                ),
+                Icon(
+                  Icons.adb,
+                  color: Color.fromARGB(255, 150, 0, 137),
+                ),
+                Icon(
+                  Icons.adb,
+                  color: Color.fromARGB(255, 150, 0, 85),
+                )
+              ],
+            ),
+            SizedBox(height: 10),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Icon(
+                  Icons.adb,
+                  color: Color.fromARGB(255, 150, 0, 45),
+                ),
+                Icon(
+                  Icons.adb,
+                  color: Color.fromARGB(255, 150, 0, 0),
+                ),
+                Icon(
+                  Icons.adb,
+                  color: Color.fromARGB(255, 150, 25, 0),
+                ),
+                Icon(
+                  Icons.adb,
+                  color: Color.fromARGB(255, 150, 80, 0),
+                ),
+                Icon(
+                  Icons.adb,
+                  color: Color.fromARGB(255, 150, 132, 0),
+                ),
+                Icon(
+                  Icons.adb,
+                  color: Color.fromARGB(255, 95, 150, 0),
+                ),
+                Icon(
+                  Icons.adb,
+                  color: Color.fromARGB(255, 17, 150, 0),
+                ),
+              ],
+            ),
+          ],
+        ),
       ),
     );
   }
